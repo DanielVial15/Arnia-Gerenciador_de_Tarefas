@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: white url("/asserts/picture/Vector 1.png") no-repeat fixed right bottom;
+}
+#carregamento {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background-color: #68519D;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#carregamento div {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+#carregamento div img {
+    align-self: center;
+}
+.lateral {
+    position: fixed;
+    height: 100%;
+    width: 45px;
+    background-color: #68519D;
+    border-right: 9px solid #D7CAE5;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+#logo {
+    width: 390px;
+    margin-top: 86px;
+}
+#logo2 {
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 800;
+    color: #68519D;
+    line-height: 30px;
+}
+#logo2 img {
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+#botao button{
+    position: absolute;
+    width: 290px;
+    margin-left: 15px;
+    border-radius: 20px;
+    margin-top: 15px;
+    border: 1px solid #68519D;
+    background-color: white;
+    color: #68519D;
+    font-size: 25px;
+}
+#botao button:hover {
+    background-color: #68519D;
+    color: white;
+}
+#img-lateral {
+    position: absolute;
+    width: 270px;
+    height: 634px;
+    left: 1242px;
+    top: 189px;
+}
+.forColor:nth-child(odd) {
+    background-color: #F5F5F5;
+}
+#itens-centro {
+    margin-top: 100px;
+    font-size: 25px;
+    color: #2C2661;
+    margin-right: 75px;
+    margin-left: 5px;
+    width: 900px;
+}
+#itensSalvos {
+    margin-right: 425px;
+    margin-left: 20px;
+    color: #68519D;
+}
+.bloco {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.377);
+    font-family: 'Poppins', sans-serif;
+}
+.modalAtivo {
+    background-color: white;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.formModal {
+    margin-left: 22px;
+    color: #68519D;
+}
+.formModal p {
+    padding-top: 15px;
+    font-size: 20px;
+    color: #68519D;
+    font-weight: 800;
+}
+.formModal label {
+    font-size: 13px;
+}
+#formNum {
+    padding: 5px;
+    border-radius: 5px;
+    width: 92%;
+}
+#formDesc {
+    padding: 5px;
+    border-radius: 5px;
+    width: 92%;
+}
+.descricaoForm {
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+#formData {
+    text-transform: uppercase;
+    padding: 5px 5px 5px 20px;
+    color: #68519D;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+}
+#formStatus {
+    padding: 5px 5px 5px 20px;
+    color: #68519D;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#formStatus option #botConcluido:hover {
+    background-color: #68519D;
+    color: white;
+}
+#cancela {
+    background-color: white;
+    border: none;
+    color: #828282;
+    margin-left: 20px;
+}
+#salva {
+    background-color: white;
+    border-radius: 20px;
+    border-color: #68519D;
+    padding: 5px 30px 5px 30px;
+    color: #68519D;
+}
+.verde {
+    color: green;
+}
+.orange {
+    color: orange;
+}
+.red {
+    color: red;
+}
+@media screen and (max-width: 416px){
+    body {
+        background: white url("//picture/1.png");
+    }
+    table {
+        font-size: 80px;
+    }
+
+}
